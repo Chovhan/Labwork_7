@@ -19,13 +19,13 @@ $('#button3').click(function() {
 })
 
 
-$(document).ready(function() {
-  var button = $("#for_audio");
-  var audio = new Audio('https://html5book.ru/examples/media/track.mp3');
-  setTimeout(function(){
-     audio.play();
-      }, 1);
-      button.click(function() {
-          audio.play();
-    });
-});
+// $(document).ready(function() {
+//   var button = $("#for_audio");
+//   var audio = new Audio('https://html5book.ru/examples/media/track.mp3');
+//   setTimeout(function(){
+//      audio.play();
+//       }, 1);
+//       button.click(function() {
+//           audio.play();
+//     });
+// });
